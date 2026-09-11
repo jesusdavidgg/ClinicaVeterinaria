@@ -3,14 +3,16 @@
  */
 
 package com.poo.clinicaveterinaria;
+import com.poo.controlador.ClinicaControlador;
 
 /**
  *
- * @author Estudiante
+ * @author Jesus Gudiño
  */
 public class ClinicaVeterinaria {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ClinicaControlador controlador = new ClinicaControlador();
+        controlador.iniciar();
     }
 }
